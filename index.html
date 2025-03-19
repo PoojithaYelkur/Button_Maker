@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition Game</title>
+    <link rel="stylesheet" href="styles.css">
+
+   </head>
+  <body>
+
+    <script src="script.js"></script>
+
+    <div class="button-maker-bg-container p-4">
+      <h1 class="button-maker-heading text-center mb-4">Button Maker</h1>
+      <div class="button-maker-container bg-light pt-4 pb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-7">
+              <p class="input-label">BACKGROUND COLOR</p>
+              <input id="bgColorInput" class="user-input" type="text" />
+              
+              <p class="input-label">FONT COLOR</p>
+              <input id="fontColorInput" class="user-input" type="text" />
+              
+              <p class="input-label">FONT SIZE (in px)</p>
+              <input id="fontSizeInput" class="user-input" type="text" />
+              
+              <p class="input-label">FONT WEIGHT</p>
+              <input id="fontWeightInput" class="user-input" type="text" />
+              
+              <p class="input-label">PADDING (in px)</p>
+              <input id="paddingInput" class="user-input" type="text" />
+              
+              <p class="input-label">BORDER RADIUS (in px)</p>
+              <input id="borderRadiusInput" class="user-input" type="text" />
+              
+              <div class="text-right mt-4">
+                <button onclick="apply()" id="applyButton" class="btn btn-primary">
+                  Apply
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-md-5 mt-4 text-center">
+              <button id="customButton" class="custom-button">Custom Button</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
